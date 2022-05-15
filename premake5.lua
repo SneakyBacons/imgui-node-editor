@@ -10,9 +10,9 @@ project "ImGuiNodeEditor"
   
 	files
 	{
-		"./Include/src/**.h",
-        "./Include/src/**.cpp",
-		"./Include/src/**.inl"
+		"./Include/**.h",
+        "./Include/**.cpp",
+		"./Include/**.inl"
 	}
 
     ToInclude = {}
