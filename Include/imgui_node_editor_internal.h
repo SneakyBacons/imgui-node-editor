@@ -20,6 +20,7 @@
 
 //------------------------------------------------------------------------------
 # include <imgui.h>
+# define IMGUI_DEFINE_MATH_OPERATORS
 # include <imgui_internal.h>
 # include "imgui_extra_math.h"
 # include "imgui_bezier_math.h"
