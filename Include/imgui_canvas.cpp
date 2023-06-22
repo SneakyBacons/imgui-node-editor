@@ -101,15 +101,11 @@ bool ImGuiEx::Canvas::Begin(ImGuiID id, const ImVec2& size)
 
     UpdateViewTransformPosition();
 
-<<<<<<< HEAD:Include/imgui_canvas.cpp
-    if (ImGui::IsClippedEx(m_WidgetRect, id))
-=======
 # if IMGUI_VERSION_NUM > 18415
     if (ImGui::IsClippedEx(m_WidgetRect, id))
         return false;
 # else
     if (ImGui::IsClippedEx(m_WidgetRect, id, false))
->>>>>>> master:imgui_canvas.cpp
         return false;
 # endif
 
